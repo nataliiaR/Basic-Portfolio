@@ -12,10 +12,12 @@ section{
     padding: 2em;
  
 }
+
 .body{
     background-color: lightgrey;
     padding-top:2em;
-    padding-bottom:2em;
+    min-height: 100%;
+    position:absolute;
 }
 
 header {
@@ -25,6 +27,19 @@ header {
 
 }
 
+footer{
+text-align: center;
+padding-top: 1.5em;
+color: white;
+background-color: grey;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+
+}
+
+
 .box-1{
     width:60%;
     margin: auto;
@@ -32,7 +47,14 @@ header {
 .box-2{
     width:60%;
     background-color: white;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: orange;
+    border-width: 1px;
+    border-style: solid;
+    position:relative; 
+    overflow:auto; 
+
 }
 
 .box-3{
@@ -57,7 +79,7 @@ img{
 #about-me{
     color:orange;
     padding-top: 1em;
-    padding-bottom:1em;
+    padding-bottom:1.5em;
     border-bottom-color: lightgrey;
     border-bottom-style: solid;
     border-bottom-width: 1.5px;
@@ -65,9 +87,8 @@ img{
     margin-right:1.5em;
     margin-bottom: 1.5em;
 }
-#footer{
-    margin:auto;
-}
+
+
 a{
     text-decoration: none;
 }
