@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+}
+section{
+    line-height: 1.6em;
+}
+.right-part{
+    font-size: 1em;
+    color: orange; 
+    float: right;
+    padding: 2em;
+ 
+}
+.body{
+    background-color: lightgrey;
+    padding-top:2em;
+}
+
+header {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: orange;
+
+}
+
+.box-1{
+    width:60%;
+    margin: auto;
+}
+.box-2{
+    width:60%;
+    background-color: white;
+    margin: auto;
+
+}
+
+.left-part{
+
+    background-color: orange;
+    color:white;
+    padding: 0.8em;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
+a:active{
+    color: orange;
+}
+a:hover{
+    color: silver;
+}
+a:visited{
+    color: orange;
+}
+.clear{
+    clear:both;
+}
