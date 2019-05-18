@@ -15,6 +15,7 @@ section{
 .body{
     background-color: lightgrey;
     padding-top:2em;
+    padding-bottom:2em;
 }
 
 header {
@@ -32,7 +33,17 @@ header {
     width:60%;
     background-color: white;
     margin: auto;
+}
 
+.box-3{
+    width: 60%;
+    float:right;
+    padding-right: 2em;
+}
+
+img{
+    height: 25em;
+    margin-left:2em;
 }
 
 .left-part{
@@ -47,14 +58,16 @@ header {
     color:orange;
     padding-top: 1em;
     padding-bottom:1em;
-    border-bottom-color: orange;
+    border-bottom-color: lightgrey;
     border-bottom-style: solid;
     border-bottom-width: 1.5px;
     margin-left:1.5em;
     margin-right:1.5em;
     margin-bottom: 1.5em;
 }
-
+#footer{
+    margin:auto;
+}
 a{
     text-decoration: none;
 }
