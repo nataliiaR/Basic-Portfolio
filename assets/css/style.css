@@ -2,9 +2,25 @@
     margin:0;
     padding: 0;
 }
-section{
-    line-height: 1.6em;
+body{
+    background-color:lightgray;
+    overflow:scroll;
 }
+
+header {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: orange;
+    background-color: white;
+
+}
+
+
+.box-1{
+    max-width: 960px;;
+    margin: auto;
+}
+
 .right-part{
     font-size: 1em;
     color: orange; 
@@ -12,69 +28,43 @@ section{
     padding: 2em;
  
 }
-
-.body{
-    background-color: lightgrey;
-    padding-top:2em;
-    min-height: 100%;
-    position:absolute;
-}
-
-header {
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: orange;
-
-}
-
-footer{
-text-align: center;
-padding-top: 1.5em;
-color: white;
-background-color: grey;
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-
-}
-
-
-.box-1{
-    width:60%;
-    margin: auto;
-}
-.box-2{
-    width:60%;
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    border-color: orange;
-    border-width: 1px;
-    border-style: solid;
-    position:relative; 
-    overflow:auto; 
-
-}
-
-
-img{
-    height: 25em;
-    margin-left:2em;
-    float:left;
-   margin-bottom: 1em;
-   margin-right:1em;
-}
-
-p{
-    margin:1em;
-}
 .left-part{
 
     background-color: orange;
     color:white;
     padding: 0.8em;
     float: left;
+}
+
+.body{
+    display: block;
+    
+    padding-top:2em;
+    margin:auto;
+    width: 960px;
+    /*min-height: 100hv;*/
+    overflow: scroll;
+}
+
+section{
+    line-height: 1.6em;
+}
+
+#empty-space{
+    height: 39px;
+    background-color: white;
+    margin: 10px;
+}
+.box-2{
+    max-width: 960px;
+    background-color: white;
+    border-color: orange;
+    border-width: 1px;
+    border-style: solid;
+    overflow: scroll;
+    clear:both;
+    margin-bottom: 3em;
+
 }
 
 #about-me{
@@ -87,6 +77,31 @@ p{
     margin-left:1.5em;
     margin-right:1.5em;
     margin-bottom: 1.5em;
+}
+
+img{
+    height: 25em;
+    margin-left:2em;
+    float:left;
+   margin-bottom: 1em;
+   margin-right:1em;
+}
+
+p{
+    margin:1em;
+}
+
+footer{
+    text-align: center;
+    padding-top: 1.5em;
+    margin-top:1.5em;
+    color: white;
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
 }
 
 
