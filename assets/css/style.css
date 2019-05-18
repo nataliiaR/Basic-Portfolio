@@ -57,17 +57,18 @@ width: 100%;
 
 }
 
-.box-3{
-    width: 60%;
-    float:right;
-    padding-right: 2em;
-}
 
 img{
     height: 25em;
     margin-left:2em;
+    float:left;
+   margin-bottom: 1em;
+   margin-right:1em;
 }
 
+p{
+    margin:1em;
+}
 .left-part{
 
     background-color: orange;
