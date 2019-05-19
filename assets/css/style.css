@@ -44,6 +44,8 @@ header {
     width: 960px;
     /*min-height: 100hv;*/
     overflow: scroll;
+    position: relative;
+    
 }
 
 section{
@@ -64,13 +66,14 @@ section{
     overflow: scroll;
     clear:both;
     margin-bottom: 3em;
+   
 
 }
 
 #about-me{
     color:orange;
     padding-top: 1em;
-    padding-bottom:1.5em;
+    padding-bottom:1em;
     border-bottom-color: lightgrey;
     border-bottom-style: solid;
     border-bottom-width: 1.5px;
@@ -91,16 +94,17 @@ p{
     margin:1em;
 }
 
-footer{
+.footer{
     text-align: center;
     padding-top: 1.5em;
     margin-top:1.5em;
     color: white;
     background-color: grey;
     position: fixed;
-    left: 0;
-    bottom: 0;
+    bottom:0;
+    padding-bottom: 4px;
     width: 100%;
+
 
 }
 
@@ -119,4 +123,17 @@ a:visited{
 }
 .clear{
     clear:both;
+}
+
+#home-country{
+    color:orange;
+    font-size: 5px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+#welcome-text{
+ text-align:center;
 }
