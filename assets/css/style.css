@@ -10,7 +10,7 @@ body{
 header {
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: orange;
+    border-bottom-color: darkgrey;
     background-color: white;
 
 }
@@ -60,7 +60,7 @@ section{
 .box-2{
     max-width: 960px;
     background-color: white;
-    border-color: orange;
+    border-color: darkgray;
     border-width: 1px;
     border-style: solid;
     overflow: scroll;
@@ -79,7 +79,7 @@ section{
     border-bottom-width: 1.5px;
     margin-left:1.5em;
     margin-right:1.5em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.2em;
 }
 
 img{
@@ -94,17 +94,25 @@ p{
     margin:1em;
 }
 
+.p-format{
+font-size:18px;
+
+}
+
 .footer{
     text-align: center;
     padding-top: 1.5em;
-    margin-top:1.5em;
+    margin-top:2em;
     color: white;
     background-color: grey;
     position: fixed;
     bottom:0;
     padding-bottom: 4px;
     width: 100%;
-
+    border-top-color: orange;
+    border-top-width: 2px;
+    border-top-style: solid;
+    font-size:12px;
 
 }
 
@@ -128,7 +136,6 @@ a:visited{
 #home-country{
     color:orange;
     font-size: 5px;
-    font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
@@ -136,4 +143,51 @@ a:visited{
 
 #welcome-text{
  text-align:center;
+
+}
+
+.contact-form{
+    margin: 0em 2em 2em 2em;
+    color:#303030;
+}
+#submit-button{
+    background-color: orange;
+    padding: 0.5em 2em 0.5em 2em;
+    color:white;
+}
+
+.input-field{
+    margin-bottom: 2em;
+    display: block;
+    padding: 0.1em;
+
+}
+
+.input-field-size{
+    height: 2em;
+    width: 20em;
+
+}
+.box-portfolio{
+    float:left;
+    width:215px;
+    height:200px;
+    border-color: darkgrey;
+    border-style: solid;
+    border-width:0.5px;
+    position: relative;
+    margin: 0em 1em 1em 2em;
+}
+
+.box-portfolio-name{
+    position: absolute;
+    background-color: orange;
+    bottom:3px;
+    color:white;
+    width:215px;
+    height:35px;
+    text-align: center;
+    padding: top 4px;
+    padding: bottom 4px;
+
 }
