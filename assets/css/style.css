@@ -21,7 +21,7 @@ span{
 }
 
 
-.box-1{
+.header-navigation{
     max-width: 960px;;
     margin: auto;
 
@@ -63,7 +63,7 @@ section{
     line-height: 1.6em;
 }
 
-.box-2{
+.content-section{
     max-width: 960px;
     background-color: white;
     border-color: darkgray;
@@ -96,8 +96,8 @@ img#my-image{
     height: 15em;
     border-radius: 70%;
 }
-p{
-    margin:1em;
+p {
+    margin: 1em;
 }
 
 .text-about-me{
@@ -190,7 +190,7 @@ a:hover.nav-link{
     border-style: solid;
     border-width:0.5px;
     position: relative;
-    margin: 0em 1em 2.2em 0em;
+    margin: 0em 4.5em 2.2em 0.3em;
    
 }
 .image-portfolio{
