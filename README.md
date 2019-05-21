@@ -1,2 +1,3 @@
 # Basic-Portfolio
-Here goes my about/contact/portfolio web page
+
+The page can be viewed live at https://nataliiar.github.io/Basic-Portfolio/
